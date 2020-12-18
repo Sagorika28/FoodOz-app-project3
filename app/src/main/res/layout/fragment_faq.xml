@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragment.FaqFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtq1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="Q1. Is this a demo food app?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtq1"
+            android:layout_margin="5dp"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="A1. Yes, this is a demo food app built to show how an actual food app would work like. This is just a project built by Sagorika"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/dark_blue"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/txta1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/txtq2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txta1"
+            android:layout_margin="5dp"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="Q2. Can we place orders using this app?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtq2"
+            android:layout_margin="5dp"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="A2. No, since this is just a demo food app you can not actually place orders using this app. For that you will need to download some app from Google Play Store."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/dark_blue"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/txta2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/txtq3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txta2"
+            android:layout_margin="5dp"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="Q3. Can we order from 2 different restaurants at one time??"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txta3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtq3"
+            android:layout_margin="5dp"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="A3. No, at a time the user can place orders from just 1 restaurant and view them in the Order history section."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/dark_blue"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/txta3"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/txtq4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txta3"
+            android:layout_margin="5dp"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="Q4. Is it possible to order more than 1 plate of the same dish?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txta4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtq4"
+            android:layout_margin="5dp"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="A4. Unfortunately no, you can only order a single plate for a particular dish. Let others get some food too ;p"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/dark_blue"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/txta4"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/txtq5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txta4"
+            android:layout_margin="5dp"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="Q5. Can I save my favourite restaurants in a separate place?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txta5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtq5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="30dp"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="A5. Yes, definitely! You can mark your favourite restaurant and then view them in the *Favourite Restaurants* section. It's as simple as that :)"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/dark_blue"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</ScrollView>
